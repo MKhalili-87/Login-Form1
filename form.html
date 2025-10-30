@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+
+        <title>Login</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Vazirmatn:wght@100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="/styles/index.css">
+        <link rel="stylesheet" href="/styles/reset.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="app-header">
+                <ul>
+                    <li>
+                        <a><span>صفحه نخست</span></a>
+                    </li>
+                    <li>
+                        <a><span>تماس با ما</span></a>
+                    </li>
+                    <li>
+                        <a><span>درباره ما</span></a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section>
+                <button class="support">
+                    <span>
+                        <img src="/assets/images/support_agent.svg">
+                    </span>
+                </button>
+            </section>
+            <section class="form-container">
+                <div class="title">
+                    <span>فرم اطلاعات کاربری</span>
+                </div>
+                <div class="user-container">
+                    <form>
+                        <label for="fname" class="username">
+                            نام کاربری:
+                        </label><br/>
+                        <input type="text" id="fname" name="first-name" placeholder="نام کاربری خود را وارد کنید..."/><br/>
+                        <label for="psw" class="pass">
+                            رمز عبور:
+                        </label><br/>
+                        <input type="password" id="psw" name="password" placeholder="گذرواژه خود را وارد کنید..."/><br/>
+                        <label class="country">
+                            کشور:
+                        </label><br/>
+                        <select>
+                            <option>
+                                ایران
+                            </option>
+                            <option>
+                                عراق
+                            </option>
+                            <option>
+                                ترکیه
+                            </option>
+                            <option>
+                                سوریه
+                            </option>
+                        </select><br/>
+                        <label for="geneder-title">
+                            جنسیت:
+                        </label>
+                        <input type="radio" id="female" name="fav_language" value="HTML">
+                        <label for="female">زن</label>
+                        <input type="radio" id="male" name="fav_language" value="CSS">
+                        <label for="male">مرد</label><br>
+                        <button class="confirm-btn">
+                            <span>ثبت مشخصات</span>
+                        </button>
+                    </form>
+                    <nav class="forgot-password">
+                        <a><u>فراموشی رمز عبور؟</u></a>
+                    </nav>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="copyright">
+                <p>تمامی حقوق محفوظ است</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
